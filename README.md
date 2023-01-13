@@ -33,5 +33,7 @@ File includes:
 ```
 **Download the app from the link below.**
 + https://github.com/Kourva/LoveYouApp/releases/download/v1.0/LoveYou-1.0-arm64-v8a_armeabi-v7a-debug.apk
+**Google Colab for converting kivy to apk using buildozer.**
++ https://colab.research.google.com/
 <br><br>
 > Hope you enjoy :)
