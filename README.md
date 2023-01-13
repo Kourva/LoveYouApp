@@ -28,7 +28,7 @@ File includes:
 + buildozer.spec   # config file for building android app (using google colab)
 + presplash.png    # presplash picture for app
 + icon.png         # our app icon
-+ Love.ttf         # beautiful lovly font
++ Love.ttf         # beautiful lovely font
 + background.png   # app background
 ```
 **Download the app from the link below.**
