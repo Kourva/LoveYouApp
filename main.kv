@@ -1,0 +1,87 @@
+# KV file for app
+
+# MainMenu Screen
+<MainMenuScreen>
+
+    # Background
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'background.png'
+
+    # Float layout
+    FloatLayout:
+
+        # Action bar
+        ActionBar:
+            pos_hint: {'top':1}
+            height: 50
+            background_color: '#00000044'
+
+            # Action View
+            ActionView:
+                use_separator: True
+
+                # Action Previous
+                ActionPrevious:
+                    halign: 'center'
+                    title: '[b][font=Love][color=#faaaad]I Love You[/font][/color][/b]'
+                    with_previous: False
+                    markup: True
+                    app_icon: "no_picture.png"
+
+        # ScrollView
+        ScrollView:
+            
+            # Scroll options
+            do_scroll_x: False
+            do_scroll_y: True
+            always_overscroll: True
+
+            
+            # Size and position
+            size_hint: (0.8, 0.80)
+            pos_hint: {"center_y":0.5, "center_x":0.5}
+
+            # Bar color
+            bar_color: '#faaaad'
+
+            # Text
+            Label:
+
+                # ID
+                id: result
+
+                # Size and position
+                size_hint_y: None
+                height: self.texture_size[1]
+                text_size: self.width, None
+                pos_hint: {'center_y': 0.5}
+
+                # Style
+                font_name: "RobotoMono-Regular"
+                markup: True
+                halign: "left"
+                color: "#faaaad"
+                text: ":))))\n\n"
+
+        # Button
+        Button:
+
+            # ID
+            id: start 
+
+            # Size and position
+            size_hint: (1, None)
+            pos_hint: {"center_x":0.5, "center_y": 0.04}
+            height: "30dp"
+
+            # Style
+            markup: True
+            text: "[b][font=Love][color=#faaaad]Get Love[/font][/color][/b]"
+            background_color: "#00000000"
+            
+            # Press Functionality
+            on_press:
+                root.say_love(result)
