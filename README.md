@@ -31,5 +31,7 @@ File includes:
 + Love.ttf         # beautiful lovly font
 + background.png   # app background
 ```
+**Download the app from the link below.**
++ https://github.com/Kourva/LoveYouApp/releases/download/v1.0/LoveYou-1.0-arm64-v8a_armeabi-v7a-debug.apk
 <br><br>
 > Hope you enjoy :)
