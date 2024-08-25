@@ -2,7 +2,7 @@
 
 
 # Love You App
-# GitHub: https://github.com/kozyol/LoveYouApp
+# GitHub: https://github.com/Kourva/LoveYouApp
 #
 # This app generates random love you text
 # each time 'get love' button pressed
